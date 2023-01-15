@@ -1,0 +1,271 @@
+body i {
+    font-family:'FontAwesome'!important;
+    font-style: normal;
+    }
+body{
+    background-image: url(../IMG/fondo.png);
+
+}
+a{
+    text-decoration: none;
+    font-family: 'Source Serif Pro', serif;
+    color: #dad5cf;
+}
+#Contacto > a{
+    color: #0e2038;
+    font-family: 'Source Serif Pro', serif;
+    font-weight:bolder;
+}
+
+.container{
+    width: 1300px;
+    margin: auto;
+}
+
+header{
+    outline: black solid 1px;
+    border-radius: 10px;
+    background-color: #0e2038;
+    box-shadow: 0px 0px 40px black;
+}
+
+nav{
+    margin: 20px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+    align-items: center;
+}
+
+
+.nav__li{
+
+    font-size: 22px;
+    margin-right: 2rem ;
+    padding: 5px;
+
+}
+.nav__li:first-child{
+    margin-right: auto;
+}
+.nav__li:first-child > h1{
+    font-family: 'Source Serif Pro', serif;
+    margin: 15px 0;
+    color:#dad5cf;
+    font-size: 30px;
+    font-weight: normal;
+    
+    
+}
+
+.nav__li_contacto{
+    font-size: 22px;
+    padding: 5px;
+    background-color: #dad5cf;
+}
+
+.contact-form{
+    max-width: 980px;
+  
+}
+.contact-form form{
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 85px) 300px 85px;
+    background-color: #dad5cf;
+}
+
+.contact-form form p{
+    font-family:'Source Serif Pro', serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    margin: 0;
+    padding: 10px;
+
+}
+.contact-form form p label{
+    display: block;
+}
+.contact-form form p input{
+    width: 380px;
+    box-shadow: -4px 5px 5px gray;
+    border-style: solid;
+    border-color:#0e2038;
+    border-width: 2px;
+
+}
+#email{
+    width: 450px;
+}
+
+.contact-form form p textarea{
+    width: 380px;
+    resize: none;
+    box-shadow: -4px 5px 3px gray;
+    border-style: solid;
+    border-color:#0e2038;
+    border-width: 2px;
+}
+
+.contact-form form .block{
+    grid-column: 1 / 3;
+}
+.contact-form form .boton{
+    align-self: center;
+    justify-self: center;
+}
+.contact-form form button{
+    width: 200px;
+    padding: 20px 0;
+    margin-right: 50px;
+    box-shadow: -4px 5px 5px gray;
+    border-style: solid;
+    border-color:#0e2038;
+    border-width: 2px;
+
+}
+
+.contact-data{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+}
+.contact-data ul{
+    padding-top: 18%;
+    padding-left: 3%;
+}
+.contact-data ul li{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.contact-data ul li i {
+    margin-right: 20px;
+}
+
+
+
+.contact-all{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-radius: 10px;
+    outline: solid #0e2038 2px;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px black;
+}
+
+
+
+.aside{
+    background-color: #0e2038;
+}
+
+
+
+
+
+
+
+@media (max-width: 1300px){
+        .container{
+            width: 100%;
+        }
+
+}
+
+@media (max-width: 900px){
+    
+    #Inicio{
+        display: none;
+    }
+    
+
+    header{
+        border-radius: 0;
+    }
+    nav{
+        margin: 0;
+    }
+
+    .nav__ul{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 0;
+
+    }
+    .nav__li{
+        margin: 5px;
+        padding: 5px;
+        font-size: 4vw;
+        margin-right: 0;
+    }
+    .nav__li:first-child{
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav__li:first-child > h1{
+
+        font-size: 7vw
+
+        
+    }
+    .nav__li_contacto{
+        font-size: 4vw;
+        padding: 5px;
+        margin: 5px;
+    }
+    .main_page{border-radius: 0;}
+    
+    p{
+        font-family: 'Source Serif Pro', serif;
+        font-size: 5vw;
+        font-variant: small-caps;
+        margin: 0;
+        margin: 2px;
+    }
+    
+    .contact-all{
+        background-color: #dad5cf;
+        padding: 25px 20px 20px 20px;
+    }
+    .contact-form form{
+        display: block;
+    }
+    
+    .contact-form form p button,
+    .contact-form form p input,
+    .contact-form form p textarea{
+        width: 100%;
+        padding: 2px;
+
+    }
+    #email{
+        width: 100%;
+    }
+    
+    .contact-all{
+        display: block;
+        padding: 0;
+        border-radius: 0;
+    }
+    .aside{
+        display: none;
+    }
+    .contact-data ul{
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .contact-data ul li{
+        font-size: 25px;
+    }
+}
