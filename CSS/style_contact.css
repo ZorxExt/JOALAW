@@ -10,11 +10,19 @@ a{
     text-decoration: none;
     font-family: 'Source Serif Pro', serif;
     color: #dad5cf;
+    transition: all 0.4s ease 0s;
+}
+a:hover{
+    color: white;
 }
 #Contacto > a{
     color: #0e2038;
     font-family: 'Source Serif Pro', serif;
     font-weight:bolder;
+    transition: all 0.4s ease 0s;
+}
+#Contacto > a:hover{
+    color: black;
 }
 
 .container{
@@ -71,6 +79,10 @@ ul{
     font-size: 22px;
     padding: 5px;
     background-color: #dad5cf;
+    transition: all 0.4s ease 0s;
+}
+.nav__li_contacto:hover{
+    background-color: white;
 }
 
 .contact-form{
@@ -132,7 +144,12 @@ ul{
     border-style: solid;
     border-color:#0e2038;
     border-width: 2px;
-
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
+.contact-form form button:hover{
+    background-color: #0e2038;
+    color: #dad5cf;
 }
 
 .contact-data{
@@ -263,7 +280,7 @@ ul{
     }
     .contact-data ul{
         padding-top: 5%;
-        padding-left: 5%;
+        padding-left: 4%;
     }
     .contact-data ul li{
         font-size: 25px;

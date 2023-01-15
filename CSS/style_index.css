@@ -6,11 +6,19 @@ a{
     text-decoration: none;
     font-family: 'Source Serif Pro', serif;
     color: #dad5cf;
+    transition: all 0.4s ease 0s;
+}
+a:hover{
+    color: white;
 }
 #Contacto > a{
     color: #0e2038;
     font-family: 'Source Serif Pro', serif;
     font-weight:bolder;
+    transition: all 0.4s ease 0s;
+}
+#Contacto > a:hover{
+    color: black;
 }
 
 .container{
@@ -67,7 +75,10 @@ ul{
     font-size: 22px;
     padding: 5px;
     background-color: #dad5cf;
-
+    transition: all 0.4s ease 0s;
+}
+.nav__li_contacto:hover{
+    background-color: white;
 }
 
 
@@ -243,8 +254,8 @@ aside{
     }
 
     .img_container{
-        height: 20vw;
-        width: 20vw;
+        height: 40vw;
+        width: 40vw;
     }
     h2{
         text-align: center;
@@ -267,6 +278,9 @@ aside{
     }
     aside{
         padding: 0;
+    }
+    aside ul li{
+        padding: 0 3px;
     }
     .about_me__ul{
         width: 90%;
