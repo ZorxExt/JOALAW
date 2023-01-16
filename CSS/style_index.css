@@ -429,6 +429,16 @@ aside{
     .trayectoria h4{
         font-size: 3vw;
     }
+    .timeline__date{
+        margin-top: 5px;
+        font-size: 20px;
+        text-align: right;
+    }
+    .timeline__date_left{
+        margin-top: 5px;
+        font-size: 20px;
+        text-align: right;
+    }
 
 
 }
