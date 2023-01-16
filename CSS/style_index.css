@@ -181,6 +181,7 @@ aside{
     margin: 0 auto;
     max-width: 1200px;
     padding: 25px;
+    padding-bottom: 7px;
     display: grid;
     grid-template-columns: 1fr 4px 1fr;
     font-size: 30px;
@@ -234,6 +235,7 @@ aside{
     margin: 0;
     padding: 10px 0 10px 0;
     font-weight: 100;
+    
 
 }
 .trayectoria h4{
@@ -242,7 +244,7 @@ aside{
     font-size: 20px;
     font-weight: bold;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 10px;
     border-top: #0e2038 solid 2px;
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -378,6 +380,11 @@ aside{
         margin: 15px 0;
 
     }
+    .trayectoria{
+        border-radius: 0;
+        box-shadow: none;
+        margin-top: 0;
+    }
 }
 
 @media (max-width:750px){
@@ -400,4 +407,22 @@ aside{
         padding-left: 0;
         padding-right: 20px;
     }
+    .timeline__middle.fourth{
+        grid-column: 2;
+        grid-row: 4;
+    }
+    .timeline__component.fourth{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .timeline__middle.fifth{
+        grid-column: 2;
+        grid-row: 6;
+    }
+    .timeline__component.fifth{
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+
 }
