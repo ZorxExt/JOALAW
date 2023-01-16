@@ -34,6 +34,9 @@ header{
 
 nav{
     margin: 20px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
 }
 
 ul{
@@ -151,6 +154,9 @@ nav ul li a:hover{
     border-width: 2px;
     transition: all 0.4s ease 0s;
     cursor: pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
 }
 .contact-form form button:hover{
     background-color: #0e2038;

@@ -27,6 +27,9 @@ header{
 
 nav{
     margin: 20px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
 }
 
 ul{
@@ -245,11 +248,25 @@ aside{
     font-weight: bold;
     margin: 0;
     margin-top: 10px;
-    border-top: #0e2038 solid 2px;
+    border-top: #003781 solid 2px;
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 5px 0 0 5px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+    transition: all 0.4s ease 0s;
+}
+.trayectoria a{
+    text-decoration: none;
+    color: black;
+}
+.trayectoria h4:hover{
+    background-color: #0e2038;
+    border-top: #dad5cf solid 2px;
+    color: #dad5cf;
+    font-weight: 400;
 }
 
 
