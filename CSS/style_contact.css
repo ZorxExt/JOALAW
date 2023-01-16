@@ -6,7 +6,9 @@ body{
     background-image: url(../IMG/fondo.png);
 
 }
-
+#Inicio2{
+    display: none;
+}
 a:hover{
     color: white;
 }
@@ -214,6 +216,9 @@ nav ul li a:hover{
     
     #Inicio{
         display: none;
+    }
+    #Inicio2{
+        display: block;
     }
     
 

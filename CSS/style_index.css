@@ -2,6 +2,9 @@ body{
     background-image: url(../IMG/fondo.png);
 
 }
+#Inicio2{
+    display: none;
+}
 
 #Contacto > a{
     color: #0e2038;
@@ -302,6 +305,9 @@ aside{
     
     #Inicio{
         display: none;
+    }
+    #Inicio2{
+        display: block;
     }
     
 
